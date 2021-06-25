@@ -1,0 +1,25 @@
+@media print{
+	.show-for-print{
+		display: block;
+	}
+	.hide-for-print{
+		display:none;
+	}
+	.bg-cover .container{
+		padding: 0;
+	}
+	section.section{
+		padding: 0;
+	}
+	.print-btn,
+	.btn-previous,
+	.btn-next,
+	.back-to-top,
+	footer{
+		display: none;
+	}
+
+	#accordion .collapse{
+		display: block;
+	}
+}

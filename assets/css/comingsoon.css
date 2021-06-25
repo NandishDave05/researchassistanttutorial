@@ -1,0 +1,136 @@
+/* ==================================
+   Coming Soon 
+   ================================== */
+.head-soon {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding: 4em 0 2em;
+}
+.comingsoon {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 2em;
+    color: #fff;
+    background: none repeat scroll 0 0 rgb(254, 209, 65);
+}
+.comingsoon .section-title::after {
+    content: "";
+    display: table;
+    margin: 1.5em auto;
+    width: 2em;
+    height: 1px;
+    background-color: #fff;
+}
+.comingsoon p {    
+    color: #fff;   
+}
+.title-soon {
+    font-family: "Nexa Bold","Helvetica",Helvetica,Arial,sans-serif;
+}
+.article-soon .button {
+    text-transform: capitalize;
+}
+/* ---TimeCircles--- */
+/**
+ *	This element is created inside your target element
+ *	It is used so that your own element will not need to be altered
+ **/
+.time_circles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/**
+ *	This is all the elements used to house all text used
+ * in time circles
+ **/
+.time_circles > div {
+    position: absolute;
+    text-align: center;
+}
+/**
+ *	Titles (Days, Hours, etc)
+ **/
+.time_circles > div > h4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Novecento", sans-serif;
+    color: rgba(255, 255, 255, 0.50);
+}
+/**
+ *	Time numbers, ie: 12
+ **/
+.time_circles > div > span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: "Novecento", sans-serif;
+    font-size: 300%;
+    margin-top: 0.4em;    
+    color: #fff;    
+}
+#dateCountdown {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+/* ---Styles in modal--- */
+.modal-backdrop.in {
+    opacity: 1;
+}
+.modal-backdrop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+}
+.modal-big {
+    width: 100%;
+}
+.modal-content {
+    position: relative;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 1px;
+    outline: 0 none;
+    box-shadow: none !important;
+}
+.close {
+    margin-top: 1em;
+}
+@media only screen and (min-width: 40em) {
+    .form-detached {
+    margin-top: 6em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
